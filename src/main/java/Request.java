@@ -1,18 +1,18 @@
 public class Request {
-    private MethodHttp methodHttp;
+    private HttpMethods httpMethods;
     private String methodString;
 
-    public Request(MethodHttp methodHttp, String methodString) {
-        this.methodHttp = methodHttp;
+    public Request(HttpMethods httpMethods, String methodString) {
+        this.httpMethods = httpMethods;
         this.methodString = methodString;
     }
 
-    public MethodHttp getMethodHttp() {
-        return methodHttp;
+    public HttpMethods getHttpMethods() {
+        return httpMethods;
     }
 
-    public void setMethodHttp(MethodHttp methodHttp) {
-        this.methodHttp = methodHttp;
+    public void setHttpMethods(HttpMethods httpMethods) {
+        this.httpMethods = httpMethods;
     }
 
     public String getMethodString() {

@@ -8,8 +8,8 @@ public class RequestProcessing extends Thread {
 
     @Override
     public void run() {
-        System.out.println("In this server arrived request " + request.getMethodHttp() + " with name <" + request.getMethodString() + ">");
-        System.out.println("Request <" + request.getMethodString() + "> with method " + request.getMethodHttp() + " was processed");
+        System.out.println("In this server arrived request " + request.getHttpMethods() + " with name <" + request.getMethodString() + ">");
+        System.out.println("Request <" + request.getMethodString() + "> with method " + request.getHttpMethods() + " was processed");
     }
 }
 

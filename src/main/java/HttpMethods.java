@@ -1,4 +1,4 @@
-public enum MethodHttp {
+public enum HttpMethods {
     GET,
     POST,
     PUT,
